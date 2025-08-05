@@ -1,0 +1,8 @@
+function typeConsole(type = "log") {
+    console[type](`Đây là type: ${type}`);
+}
+typeConsole();
+typeConsole("warn");
+typeConsole("error");
+typeConsole("info"); 
+typeConsole("debug"); 
